@@ -9,6 +9,7 @@ import './index.css' ;
 import Root from './routes/Root.jsx';
 import ErrorPage from './Error-page.jsx';
 import Contact from "./routes/Contact.jsx";
+import Stoner from './Stoner.jsx';
 
 
 
@@ -26,11 +27,11 @@ const router = createBrowserRouter([
   },
   {
     path:"/stoner",
-    element: <h1>Stoner</h1>,
+    element: <Stoner />,
   },
   {
     path:"/rock",
-    element: <h1>Rock</h1>,
+    element: <App />,
   },
   {
     path:"/metal",

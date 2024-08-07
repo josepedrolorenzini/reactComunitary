@@ -42,6 +42,9 @@ export default function Root() {
               <li>
                 <Link to={`/stoner`}>Stoner</Link>
               </li>
+              <li>
+                <Link to={`/rock`}>rock</Link>
+              </li>
             </ul>
           </nav>
         </div>
